@@ -155,13 +155,15 @@ body {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 .feedback-widget.active .feedback-widget__link:hover {
-  transform: rotateZ(90deg);
-  -webkit-transform: rotateZ(90deg);
-  -moz-transform: rotateZ(90deg);
-  -ms-transform: rotateZ(90deg);
-  -o-transform: rotateZ(90deg);
+  transform: rotateZ(270deg);
+  -webkit-transform: rotateZ(270deg);
+  -moz-transform: rotateZ(270deg);
+  -ms-transform: rotateZ(270deg);
+  -o-transform: rotateZ(270deg);
 }
 .feedback-widget__close {
   display: none;
