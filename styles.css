@@ -118,7 +118,12 @@ body {
   bottom: 54px;
   width: 60px;
   z-index: -10;
+  visibility: hidden;
 }
+.active .feedback-widget__list {
+  visibility: visible;
+}
+
 .feedback-widget__btn,
 .feedback-widget__link {
   display: flex;
@@ -143,6 +148,7 @@ body {
 .feedback-widget__link {
   opacity: 0;
 }
+
 .feedback-widget.active .feedback-widget__btn,
 .feedback-widget.active .feedback-widget__btn-circle,
 .feedback-widget.active .feedback-widget__btn-circle::before {
